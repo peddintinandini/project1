@@ -1,0 +1,118 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    width: auto;
+    margin-bottom: 0;
+    /* margin-top: 50vh; */
+    background-color: #0b051b;
+    text-align: center;
+    padding-left: 150px;
+  
+  
+  }
+  
+  .body {
+    min-height: 40rem;
+  }
+  
+  .about {
+    font-size: 30px;
+    color: white;
+    margin-top: 5rem;
+    font-family: garamond;
+    margin-left: 2rem;
+    font-style: oblique;
+  
+  }
+  
+  .contact_information {
+    font-size: 30px;
+    color: white;
+    margin-top: 5rem;
+    font-family: garamond;
+    font-style: oblique;
+  }
+  
+
+  
+  .hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: garamond;
+    margin-top: 2rem;
+  }
+  
+  .phone_contact, .location, .email {
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.2rem;
+   
+   
+  }
+  
+  .about_text {
+    margin-top: 2rem;
+    padding: 5px;
+    color: white;
+    font-family: garamond;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    margin-left: 10px;
+}
+.btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+.btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+.opening{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    font-family: garamond;
+    margin-left: 2rem;
+    font-style: oblique;
+}
